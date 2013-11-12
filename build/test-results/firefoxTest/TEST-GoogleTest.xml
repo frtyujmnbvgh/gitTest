@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="GoogleTest" tests="1" failures="0" errors="0" timestamp="2013-11-12T00:12:27" hostname="BSP01048" time="33.207">
+  <properties/>
+  <testcase name="firstLinkText eq Wikipedia" classname="GoogleTest" time="33.207"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

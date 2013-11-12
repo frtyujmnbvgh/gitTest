@@ -1,0 +1,520 @@
+[0.817][INFO]: received WebDriver request: GET /status 
+[0.818][INFO]: sending WebDriver response: 200 {
+   "sessionId": "",
+   "status": 0,
+   "value": {
+      "build": {
+         "version": "alpha"
+      },
+      "os": {
+         "arch": "x86",
+         "name": "Windows NT",
+         "version": "6.1 SP1"
+      }
+   }
+}
+[0.935][INFO]: received WebDriver request: POST /session {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chrome.switches": [  ],
+      "chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[0.955][INFO]: Launching chrome: "C:\Users\b1669\AppData\Local\Google\Chrome\Application\chrome.exe" --remote-debugging-port=50460 --no-first-run --enable-logging --logging-level=1 --user-data-dir="C:\Users\b1669\AppData\Local\Temp\scoped_dir6564_17147" --load-extension="C:\Users\b1669\AppData\Local\Temp\scoped_dir6564_25790\internal" --ignore-certificate-errors data:text/html;charset=utf-8,
+[7.833][INFO]: sending WebDriver response: 303 
+[7.843][INFO]: received WebDriver request: GET /session/4f60c0f6397650176a131bcc813455aa 
+[7.847][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": true,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome": {
+         "chromedriverVersion": "2.0"
+      },
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": true,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": true,
+      "nativeEvents": true,
+      "platform": "Windows NT",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "30.0.1599.101",
+      "webStorageEnabled": true
+   }
+}
+[7.874][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/url {
+   "url": "http://google.com/ncr"
+}
+[7.938][INFO]: waiting for pending navigations...
+[7.956][INFO]: done waiting for pending navigations
+[8.054][INFO]: waiting for pending navigations...
+[8.866][INFO]: done waiting for pending navigations
+[8.866][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": null
+}
+[8.885][INFO]: received WebDriver request: GET /session/4f60c0f6397650176a131bcc813455aa/title 
+[8.885][INFO]: waiting for pending navigations...
+[8.885][INFO]: done waiting for pending navigations
+[9.035][INFO]: waiting for pending navigations...
+[9.035][INFO]: done waiting for pending navigations
+[9.035][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": "Google"
+}
+[9.086][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element {
+   "using": "tag name",
+   "value": "html"
+}
+[9.086][INFO]: waiting for pending navigations...
+[9.086][INFO]: done waiting for pending navigations
+[9.119][INFO]: waiting for pending navigations...
+[9.119][INFO]: done waiting for pending navigations
+[9.119][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": {
+      "ELEMENT": "0.7526745195500553:1"
+   }
+}
+[9.197][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:1/elements {
+   "id": "0.7526745195500553:1",
+   "using": "css selector",
+   "value": "form#gbqf"
+}
+[9.197][INFO]: waiting for pending navigations...
+[9.197][INFO]: done waiting for pending navigations
+[9.235][INFO]: waiting for pending navigations...
+[9.235][INFO]: done waiting for pending navigations
+[9.235][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": "0.7526745195500553:2"
+   } ]
+}
+[9.273][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:2/elements {
+   "id": "0.7526745195500553:2",
+   "using": "name",
+   "value": "q"
+}
+[9.273][INFO]: waiting for pending navigations...
+[9.273][INFO]: done waiting for pending navigations
+[9.301][INFO]: waiting for pending navigations...
+[9.301][INFO]: done waiting for pending navigations
+[9.301][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": "0.7526745195500553:3"
+   } ]
+}
+[9.309][INFO]: received WebDriver request: GET /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:3/name 
+[9.310][INFO]: waiting for pending navigations...
+[9.310][INFO]: done waiting for pending navigations
+[9.314][INFO]: waiting for pending navigations...
+[9.314][INFO]: done waiting for pending navigations
+[9.314][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": "input"
+}
+[9.317][INFO]: received WebDriver request: GET /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:3/attribute/type 
+[9.318][INFO]: waiting for pending navigations...
+[9.318][INFO]: done waiting for pending navigations
+[9.334][INFO]: waiting for pending navigations...
+[9.334][INFO]: done waiting for pending navigations
+[9.334][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": "text"
+}
+[9.337][INFO]: received WebDriver request: GET /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:3/attribute/type 
+[9.337][INFO]: waiting for pending navigations...
+[9.338][INFO]: done waiting for pending navigations
+[9.348][INFO]: waiting for pending navigations...
+[9.348][INFO]: done waiting for pending navigations
+[9.348][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": "text"
+}
+[9.350][INFO]: received WebDriver request: GET /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:3/attribute/type 
+[9.350][INFO]: waiting for pending navigations...
+[9.351][INFO]: done waiting for pending navigations
+[9.359][INFO]: waiting for pending navigations...
+[9.359][INFO]: done waiting for pending navigations
+[9.359][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": "text"
+}
+[9.363][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:3/clear {
+   "id": "0.7526745195500553:3"
+}
+[9.363][INFO]: waiting for pending navigations...
+[9.363][INFO]: done waiting for pending navigations
+[9.405][INFO]: waiting for pending navigations...
+[9.405][INFO]: done waiting for pending navigations
+[9.405][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": null
+}
+[9.411][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:3/value {
+   "id": "0.7526745195500553:3",
+   "value": [ "wikipedia" ]
+}
+[9.412][INFO]: waiting for pending navigations...
+[9.415][INFO]: done waiting for pending navigations
+[9.591][INFO]: waiting for pending navigations...
+[9.591][INFO]: done waiting for pending navigations
+[9.591][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": null
+}
+[9.672][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element {
+   "using": "tag name",
+   "value": "html"
+}
+[9.672][INFO]: waiting for pending navigations...
+[9.672][INFO]: done waiting for pending navigations
+[9.684][INFO]: waiting for pending navigations...
+[9.684][INFO]: done waiting for pending navigations
+[9.684][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": {
+      "ELEMENT": "0.7526745195500553:1"
+   }
+}
+[9.687][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:1/elements {
+   "id": "0.7526745195500553:1",
+   "using": "css selector",
+   "value": "li.g"
+}
+[9.688][INFO]: waiting for pending navigations...
+[9.688][INFO]: done waiting for pending navigations
+[9.713][INFO]: waiting for pending navigations...
+[9.714][INFO]: done waiting for pending navigations
+[9.714][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": [  ]
+}
+[9.833][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element {
+   "using": "tag name",
+   "value": "html"
+}
+[9.833][INFO]: waiting for pending navigations...
+[9.833][INFO]: done waiting for pending navigations
+[9.844][INFO]: waiting for pending navigations...
+[9.844][INFO]: done waiting for pending navigations
+[9.844][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": {
+      "ELEMENT": "0.7526745195500553:1"
+   }
+}
+[9.848][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:1/elements {
+   "id": "0.7526745195500553:1",
+   "using": "css selector",
+   "value": "li.g"
+}
+[9.849][INFO]: waiting for pending navigations...
+[9.849][INFO]: done waiting for pending navigations
+[9.860][INFO]: waiting for pending navigations...
+[9.860][INFO]: done waiting for pending navigations
+[9.860][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": [  ]
+}
+[9.965][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element {
+   "using": "tag name",
+   "value": "html"
+}
+[9.965][INFO]: waiting for pending navigations...
+[9.965][INFO]: done waiting for pending navigations
+[9.978][INFO]: waiting for pending navigations...
+[9.978][INFO]: done waiting for pending navigations
+[9.978][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": {
+      "ELEMENT": "0.7526745195500553:1"
+   }
+}
+[9.981][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:1/elements {
+   "id": "0.7526745195500553:1",
+   "using": "css selector",
+   "value": "li.g"
+}
+[9.981][INFO]: waiting for pending navigations...
+[9.981][INFO]: done waiting for pending navigations
+[9.993][INFO]: waiting for pending navigations...
+[9.993][INFO]: done waiting for pending navigations
+[9.993][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": [  ]
+}
+[10.098][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element {
+   "using": "tag name",
+   "value": "html"
+}
+[10.098][INFO]: waiting for pending navigations...
+[10.098][INFO]: done waiting for pending navigations
+[10.264][INFO]: waiting for pending navigations...
+[10.264][INFO]: done waiting for pending navigations
+[10.264][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": {
+      "ELEMENT": "0.7526745195500553:1"
+   }
+}
+[10.266][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:1/elements {
+   "id": "0.7526745195500553:1",
+   "using": "css selector",
+   "value": "li.g"
+}
+[10.269][INFO]: waiting for pending navigations...
+[10.269][INFO]: done waiting for pending navigations
+[10.389][INFO]: waiting for pending navigations...
+[10.390][INFO]: done waiting for pending navigations
+[10.390][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": "0.7526745195500553:4"
+   }, {
+      "ELEMENT": "0.7526745195500553:5"
+   }, {
+      "ELEMENT": "0.7526745195500553:6"
+   }, {
+      "ELEMENT": "0.7526745195500553:7"
+   }, {
+      "ELEMENT": "0.7526745195500553:8"
+   }, {
+      "ELEMENT": "0.7526745195500553:9"
+   }, {
+      "ELEMENT": "0.7526745195500553:10"
+   }, {
+      "ELEMENT": "0.7526745195500553:11"
+   }, {
+      "ELEMENT": "0.7526745195500553:12"
+   }, {
+      "ELEMENT": "0.7526745195500553:13"
+   } ]
+}
+[10.400][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element {
+   "using": "tag name",
+   "value": "html"
+}
+[10.403][INFO]: waiting for pending navigations...
+[10.404][INFO]: done waiting for pending navigations
+[10.417][INFO]: waiting for pending navigations...
+[10.417][INFO]: done waiting for pending navigations
+[10.417][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": {
+      "ELEMENT": "0.7526745195500553:1"
+   }
+}
+[10.420][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:1/elements {
+   "id": "0.7526745195500553:1",
+   "using": "css selector",
+   "value": "li.g"
+}
+[10.422][INFO]: waiting for pending navigations...
+[10.422][INFO]: done waiting for pending navigations
+[10.451][INFO]: waiting for pending navigations...
+[10.451][INFO]: done waiting for pending navigations
+[10.451][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": "0.7526745195500553:4"
+   }, {
+      "ELEMENT": "0.7526745195500553:5"
+   }, {
+      "ELEMENT": "0.7526745195500553:6"
+   }, {
+      "ELEMENT": "0.7526745195500553:7"
+   }, {
+      "ELEMENT": "0.7526745195500553:8"
+   }, {
+      "ELEMENT": "0.7526745195500553:9"
+   }, {
+      "ELEMENT": "0.7526745195500553:10"
+   }, {
+      "ELEMENT": "0.7526745195500553:11"
+   }, {
+      "ELEMENT": "0.7526745195500553:12"
+   }, {
+      "ELEMENT": "0.7526745195500553:13"
+   } ]
+}
+[10.472][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:4/elements {
+   "id": "0.7526745195500553:4",
+   "using": "css selector",
+   "value": "a.l"
+}
+[10.473][INFO]: waiting for pending navigations...
+[10.473][INFO]: done waiting for pending navigations
+[10.498][INFO]: waiting for pending navigations...
+[10.498][INFO]: done waiting for pending navigations
+[10.499][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": "0.7526745195500553:14"
+   }, {
+      "ELEMENT": "0.7526745195500553:15"
+   } ]
+}
+[10.504][INFO]: received WebDriver request: GET /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:14/text 
+[10.505][INFO]: waiting for pending navigations...
+[10.505][INFO]: done waiting for pending navigations
+[10.539][INFO]: waiting for pending navigations...
+[10.539][INFO]: done waiting for pending navigations
+[10.539][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": "Wikipedia"
+}
+[10.544][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element {
+   "using": "tag name",
+   "value": "html"
+}
+[10.545][INFO]: waiting for pending navigations...
+[10.545][INFO]: done waiting for pending navigations
+[10.554][INFO]: waiting for pending navigations...
+[10.554][INFO]: done waiting for pending navigations
+[10.554][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": {
+      "ELEMENT": "0.7526745195500553:1"
+   }
+}
+[10.558][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:1/elements {
+   "id": "0.7526745195500553:1",
+   "using": "css selector",
+   "value": "li.g"
+}
+[10.558][INFO]: waiting for pending navigations...
+[10.558][INFO]: done waiting for pending navigations
+[10.568][INFO]: waiting for pending navigations...
+[10.568][INFO]: done waiting for pending navigations
+[10.568][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": "0.7526745195500553:4"
+   }, {
+      "ELEMENT": "0.7526745195500553:5"
+   }, {
+      "ELEMENT": "0.7526745195500553:6"
+   }, {
+      "ELEMENT": "0.7526745195500553:7"
+   }, {
+      "ELEMENT": "0.7526745195500553:8"
+   }, {
+      "ELEMENT": "0.7526745195500553:9"
+   }, {
+      "ELEMENT": "0.7526745195500553:10"
+   }, {
+      "ELEMENT": "0.7526745195500553:11"
+   }, {
+      "ELEMENT": "0.7526745195500553:12"
+   }, {
+      "ELEMENT": "0.7526745195500553:13"
+   } ]
+}
+[10.573][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:4/elements {
+   "id": "0.7526745195500553:4",
+   "using": "css selector",
+   "value": "a.l"
+}
+[10.573][INFO]: waiting for pending navigations...
+[10.573][INFO]: done waiting for pending navigations
+[10.585][INFO]: waiting for pending navigations...
+[10.585][INFO]: done waiting for pending navigations
+[10.585][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": "0.7526745195500553:14"
+   }, {
+      "ELEMENT": "0.7526745195500553:15"
+   } ]
+}
+[10.590][INFO]: received WebDriver request: POST /session/4f60c0f6397650176a131bcc813455aa/element/0.7526745195500553:14/click {
+   "id": "0.7526745195500553:14"
+}
+[10.591][INFO]: waiting for pending navigations...
+[10.591][INFO]: done waiting for pending navigations
+[10.698][INFO]: waiting for pending navigations...
+[14.578][INFO]: done waiting for pending navigations
+[14.579][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": null
+}
+[14.602][INFO]: received WebDriver request: GET /session/4f60c0f6397650176a131bcc813455aa/title 
+[14.603][INFO]: waiting for pending navigations...
+[14.603][INFO]: done waiting for pending navigations
+[14.608][INFO]: waiting for pending navigations...
+[14.608][INFO]: done waiting for pending navigations
+[14.608][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": "Wikipedia, the free encyclopedia"
+}
+[14.641][INFO]: received WebDriver request: GET /session/4f60c0f6397650176a131bcc813455aa/source 
+[14.641][INFO]: waiting for pending navigations...
+[14.641][INFO]: done waiting for pending navigations
+[14.683][INFO]: waiting for pending navigations...
+[14.683][INFO]: done waiting for pending navigations
+[14.694][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\"en\" dir=\"ltr\" class=\"ve-not-available client-js\"\u003E\u003Chead\u003E\n\u003Cmeta charset=\"UTF-8\"\u003E\u003Ctitle\u003EWikipedia, the free encyclopedia\u003C/title\u003E\n\u003Cmeta name=\"generator\" content=\"MediaWiki 1...."
+}
+[14.722][INFO]: received WebDriver request: GET /session/4f60c0f6397650176a131bcc813455aa/screenshot 
+[14.722][INFO]: waiting for pending navigations...
+[14.722][INFO]: done waiting for pending navigations
+[14.883][INFO]: waiting for pending navigations...
+[14.883][INFO]: done waiting for pending navigations
+[14.902][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": "iVBORw0KGgoAAAANSUhEUgAABAoAAAKTCAIAAAAff33KAAAgAElEQVR4nOzdeXwUx50o8Oqe+x7dt0ajC3FpOAxYYMnY+ABbWieOvZAATpxkl6whu283WfMJvN28ZANvYe+sIQ8nu95EwkeyceIIG+zYBguby8ZYMiBOSaP7np57uqeP90eL3s4crbl08vt+iNOqq..."
+}
+[15.031][INFO]: received WebDriver request: DELETE /session/4f60c0f6397650176a131bcc813455aa/cookie 
+[15.031][INFO]: waiting for pending navigations...
+[15.031][INFO]: done waiting for pending navigations
+[15.056][INFO]: waiting for pending navigations...
+[15.056][INFO]: done waiting for pending navigations
+[15.056][INFO]: sending WebDriver response: 200 {
+   "sessionId": "4f60c0f6397650176a131bcc813455aa",
+   "status": 0,
+   "value": null
+}
